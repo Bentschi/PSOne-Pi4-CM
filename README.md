@@ -53,8 +53,6 @@ Realisticly a flat fan like in laptops should probably be used and a shroud shou
 ## Current status
 I am currently working on the design and schematic for the board in KiCad.
 I want to get as much done as possible until i order a PCB from that to test everything.
-Currently it is not yet open source, but i plan on making the entire project open source once i am at a point where i am happy with the schematic.
-But i am open for ideas and suggestions for now.
 
 I want to mention that I have repaired a lot of older consoles in the past and I have very good knowledge of how these devices actually work.
 And with all that knowledge, together with my very good programming skills, and my passion about old consoles and interrest in electronics, i think i have everything i need to get this project working.
