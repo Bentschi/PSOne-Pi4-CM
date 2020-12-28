@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name PSOne-RPI)(type KiCad)(uri ${KIPRJMOD}/PSOne-RPI.pretty)(options "")(descr ""))
+)
