@@ -288,7 +288,7 @@ CD_FSC_B
 Text Label 9900 2850 2    50   ~ 0
 TEMP
 Text Label 9900 2950 2    50   ~ 0
-FAN
+PWM_FAN
 Text Label 9900 1450 2    50   ~ 0
 CD_OPT_B
 Text Label 9900 1350 2    50   ~ 0
