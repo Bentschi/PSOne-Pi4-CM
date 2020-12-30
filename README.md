@@ -43,12 +43,8 @@ I am aware that CD drives are obsolete by todays standards, and that it is not g
 But for completeness i would want to have it working. And if i get it working it would be pretty simple to make it read actual Playstation CDs since the copy protection is not too complicated if you have full control over the entire CD assembly anyway.
 
 ## Cooling the Compute Module
-I have put a lot of thought into cooling the Compute Module, there are some passive measures i take on the pcb, like that i try to keep the area under the SOC mostly ground plane and put some vias to conduct the heat to the back aswell.
-The idea is that a thermal pad could be used to conduct the heat from the Compute Module to the PCB i am designing for a bit of passive cooling from below the Compute Module.
-The other thing is that i dont want the M.2 slot get warm, since SSDs dont like it too warm.
-Therefore i split the groundplane between the M.2 slot and the compute module with a few traces.
-
 Realisticly a flat fan like in laptops should probably be used and a shroud should be designed, that the air is taken from above the M.2 slot and pushed over the compute module, and with the shroud then directed to the bottom right vent holes on the console.
+A connector for a fan (5V / 1A max), PWM controlled by the STM32 will be available, sharing one of the ULN2003 chips that are mainly used for the CD drive.
 
 ## Current status
 I am currently working on the design and schematic for the board in KiCad.
