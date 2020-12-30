@@ -277,13 +277,13 @@ Text Label 9900 2050 2    50   ~ 0
 LED_G
 Text Label 9900 1950 2    50   ~ 0
 LED_B
-Text Label 4400 3650 0    50   ~ 0
-CD_TRC_B
 Text Label 4400 3550 0    50   ~ 0
+CD_TRC_B
+Text Label 4400 3650 0    50   ~ 0
 CD_TRC_A
-Text Label 4400 3450 0    50   ~ 0
-CD_FSC_A
 Text Label 4400 3750 0    50   ~ 0
+CD_FSC_A
+Text Label 4400 3450 0    50   ~ 0
 CD_FSC_B
 Text Label 9900 2850 2    50   ~ 0
 TEMP
@@ -519,7 +519,7 @@ Wire Wire Line
 Connection ~ 6300 850 
 Text Label 5750 850  0    50   ~ 0
 +3.3V_STB
-Text Label 9900 3050 2    50   ~ 0
+Text Label 9900 3450 2    50   ~ 0
 ACK
 Text Label 9900 3150 2    50   ~ 0
 CLK
@@ -527,13 +527,13 @@ Text Label 9900 3350 2    50   ~ 0
 CMD
 Text Label 9900 3250 2    50   ~ 0
 DATA
-Text Label 9950 4350 2    50   ~ 0
+Text Label 9900 4250 2    50   ~ 0
 MEM2_SEL
-Text Label 9950 4150 2    50   ~ 0
+Text Label 9900 4050 2    50   ~ 0
 MEM1_SEL
-Text Label 9950 4050 2    50   ~ 0
+Text Label 9900 4150 2    50   ~ 0
 CP1_SEL
-Text Label 9950 4250 2    50   ~ 0
+Text Label 9900 4350 2    50   ~ 0
 CP2_SEL
 Text HLabel 1400 850  0    50   Input ~ 0
 +3.3V_STB
@@ -777,17 +777,9 @@ Wire Wire Line
 Wire Wire Line
 	7200 1350 9900 1350
 Wire Wire Line
-	7200 4250 9950 4250
-Wire Wire Line
-	7200 4350 9950 4350
-Wire Wire Line
 	7200 3850 9900 3850
 Wire Wire Line
 	7200 3950 9900 3950
-Wire Wire Line
-	7200 4050 9950 4050
-Wire Wire Line
-	7200 4150 9950 4150
 Text Notes 7300 1250 0    50   ~ 0
 USART2_RTS/ADC12_IN1/TIM2_CH2
 Text Notes 7300 1350 0    50   ~ 0
@@ -936,4 +928,12 @@ Text Label 9900 1550 2    50   ~ 0
 CD_STOP
 Text Label 9900 1650 2    50   ~ 0
 CD_LD
+Wire Wire Line
+	7200 4050 9900 4050
+Wire Wire Line
+	7200 4150 9900 4150
+Wire Wire Line
+	7200 4250 9900 4250
+Wire Wire Line
+	7200 4350 9900 4350
 $EndSCHEMATC
