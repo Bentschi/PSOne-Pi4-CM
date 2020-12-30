@@ -2,7 +2,7 @@
 The goal of this project is to create open source hardware and software that replaces parts of a PSOne console mainly with a Raspbery PI 4 Compute Module, while remaining the beauty of the console aswell as most of the functionality.
 That means you would be able to use your playstation dualshock controllers, the memory card slots, and if i can get it to work the cd drive aswell.
 
-![alt text](https://github.com/Bentschi/PSOne-Pi4-CM/blob/master/img/pspi11.png?raw=true)
+![alt text](https://github.com/Bentschi/PSOne-Pi4-CM/blob/master/img/pspi12.png?raw=true)
 
 ## Raspberry Pi 4 Compute Module - the heart
 As mentioned it will be mainly powered by a Raspberry PI 4 Compute Module, and i will try to break out as much IO as reasonably possible.
@@ -18,12 +18,15 @@ A cable that connects to that connector could look something like the following 
 
 Alternatively a hub could be designed with said ports and maybe a few extras like usb hub and sound.
 
-I will also add the barrel plug you find on a PSOne. But a more powerful power supply like the Playstation 2 slim power supply (8.5V / 5.6 A) should be considered, since the original PSOne power supply is only rated for 7.5V / 2.2A and that may not be enough to power the Raspberry Pi.
+I will also add the barrel plug you find on a PSOne.
+To save some cost and precious board space the Dual Shock function will most certainly only be enabled by using this barrel plug.
+The original PSOne power supply (7.5V / 2.2A) seems to be enough to power this entire system (estimated-power-consumption.ods), however when using a M.2 SSD I would suggest to use a better power supply like the one for the Playstation 2 slim (8.5V / 5.6A).
 
 The PCIe i want to use for a M.2 card interface. and i would love to split the pcie lane for USB 3.0 aswell, but then again i want to stay in a reasonable price range for the parts.
-The M.2 slot will be able to hold up to 22x60mm cards, for 22x80mm and 22x100mm cards there would be about 7mm vertical clearance, since the only place where a M.2 slot would make sense interferes a little bit with the cd drive.
+The M.2 slot will be able to hold up to 22x60mm cards, and for 22x80mm cards there would be about 7mm vertical clearance, since the only place where a M.2 slot would make sense interferes a little bit with the cd drive.
+Sadly I needed more room for the internal power supply, so I had to remove the footprint (mounting hole) for 22x110mm cards.
 
-I have'nt managed to find a good place for a SD card holder, but i will route out the traces at least and put a footprint somewhere internally.
+I haven't managed to find a good place for a SD card holder, but i will route out the traces at least and put a footprint somewhere internally.
 I will route out the DSI and CSI connectors aswell, even if i don't really see a use inside a console for them.
 
 There will be an internal 4 port USB 2.0 hub from the PIs USB 2.0 interface.
