@@ -1,12 +1,12 @@
 ## Introduction
-The goal of this project is to create open source hardware and software that replaces parts of a PSOne console mainly with a Raspbery PI 4 Compute Module, while remaining the beauty of the console aswell as most of the functionality.
+The goal of this project is to create open source hardware and software that replaces parts of a PSOne console mainly with a Raspbery PI 4 Compute Module, while remaining the beauty of the console and most of the functionality.
 That means you would be able to use your playstation dualshock controllers, the memory card slots, and if i can get it to work the cd drive aswell.
 
-![alt text](https://github.com/Bentschi/PSOne-Pi4-CM/blob/master/img/pspi12.png?raw=true)
+![alt text](https://github.com/Bentschi/PSOne-Pi4-CM/blob/master/img/pspi13.png?raw=true)
 
 ## Raspberry Pi 4 Compute Module - the heart
 As mentioned it will be mainly powered by a Raspberry PI 4 Compute Module, and i will try to break out as much IO as reasonably possible.
-Sadly in a PSOne with a CD drive there is not much room to work with, and therefore I decided for a non-destructive method of routing out the ports.
+Sadly in a PSOne with a CD drive there is not much room to work with, and I decided for a non-destructive method of routing out the ports.
 I want to use the connector U10-A074-361T from Amphenol (also known as Slim SAS, and used mostly in servers).
 The connector is not really cheap and a little wider than the AV multi out.
 But that is the price to pay to not destroy the case of the console, and if the connector is inset in the existing hole it will fit.
