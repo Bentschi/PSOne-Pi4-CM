@@ -495,29 +495,16 @@ Text Label 1200 6350 0    50   ~ 0
 CMD
 Text Label 1200 6250 0    50   ~ 0
 DATA
+Connection ~ 6600 750 
 Wire Wire Line
-	6300 850  6400 850 
+	6600 750  6700 750 
+Connection ~ 6500 750 
 Wire Wire Line
-	6700 850  6700 950 
+	6500 750  6600 750 
+Connection ~ 6400 750 
 Wire Wire Line
-	6300 850  6300 950 
-Wire Wire Line
-	6600 950  6600 850 
-Connection ~ 6600 850 
-Wire Wire Line
-	6600 850  6700 850 
-Wire Wire Line
-	6500 950  6500 850 
-Connection ~ 6500 850 
-Wire Wire Line
-	6500 850  6600 850 
-Wire Wire Line
-	6400 950  6400 850 
-Connection ~ 6400 850 
-Wire Wire Line
-	6400 850  6500 850 
-Connection ~ 6300 850 
-Text Label 5750 850  0    50   ~ 0
+	6400 750  6500 750 
+Text Label 5750 750  0    50   ~ 0
 +3.3V_STB
 Text Label 9900 3450 2    50   ~ 0
 ACK
@@ -589,10 +576,8 @@ F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/da
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6700 850  6800 850 
-Wire Wire Line
-	6800 850  6800 950 
-Connection ~ 6700 850 
+	6700 750  6800 750 
+Connection ~ 6700 750 
 Wire Wire Line
 	6600 4650 6700 4650
 Wire Wire Line
@@ -604,8 +589,6 @@ Text Label 9900 2550 2    50   ~ 0
 +5V_EN
 Text Label 9900 2650 2    50   ~ 0
 +7.5V_EN
-Wire Wire Line
-	5750 850  6300 850 
 Text Label 9900 2450 2    50   ~ 0
 +3.3V_CP_EN
 Wire Wire Line
@@ -620,77 +603,77 @@ Wire Wire Line
 	1400 1150 2050 1150
 Text Label 2050 1150 2    50   ~ 0
 +3.3V_CP
-Text HLabel 1400 2400 0    50   Input ~ 0
+Text HLabel 1400 2650 0    50   Input ~ 0
 CD_RD_A
-Text HLabel 1400 2500 0    50   Input ~ 0
+Text HLabel 1400 2750 0    50   Input ~ 0
 CD_RD_B
-Text HLabel 1400 2600 0    50   Input ~ 0
+Text HLabel 1400 2850 0    50   Input ~ 0
 CD_RD_C
-Text HLabel 1400 2700 0    50   Input ~ 0
+Text HLabel 1400 2950 0    50   Input ~ 0
 CD_RD_D
 Wire Wire Line
-	1400 2400 2050 2400
+	1400 2650 2050 2650
 Wire Wire Line
-	1400 2500 2050 2500
+	1400 2750 2050 2750
 Wire Wire Line
-	1400 2600 2050 2600
-Wire Wire Line
-	1400 2700 2050 2700
-Text Label 2050 2400 2    50   ~ 0
-CD_RD_A
-Text Label 2050 2500 2    50   ~ 0
-CD_RD_B
-Text Label 2050 2600 2    50   ~ 0
-CD_RD_C
-Text Label 2050 2700 2    50   ~ 0
-CD_RD_D
-Text HLabel 1400 2950 0    50   Output ~ 0
-CD_FSC_A
-Text HLabel 1400 3050 0    50   Output ~ 0
-CD_FSC_B
-Text HLabel 1400 3150 0    50   Output ~ 0
-CD_TRC_A
-Text HLabel 1400 3250 0    50   Output ~ 0
-CD_TRC_B
+	1400 2850 2050 2850
 Wire Wire Line
 	1400 2950 2050 2950
-Wire Wire Line
-	1400 3050 2050 3050
+Text Label 2050 2650 2    50   ~ 0
+CD_RD_A
+Text Label 2050 2750 2    50   ~ 0
+CD_RD_B
+Text Label 2050 2850 2    50   ~ 0
+CD_RD_C
 Text Label 2050 2950 2    50   ~ 0
+CD_RD_D
+Text HLabel 1400 3200 0    50   Output ~ 0
 CD_FSC_A
-Text Label 2050 3050 2    50   ~ 0
+Text HLabel 1400 3300 0    50   Output ~ 0
+CD_FSC_B
+Text HLabel 1400 3400 0    50   Output ~ 0
+CD_TRC_A
+Text HLabel 1400 3500 0    50   Output ~ 0
+CD_TRC_B
+Wire Wire Line
+	1400 3200 2050 3200
+Wire Wire Line
+	1400 3300 2050 3300
+Text Label 2050 3200 2    50   ~ 0
+CD_FSC_A
+Text Label 2050 3300 2    50   ~ 0
 CD_FSC_B
 Wire Wire Line
-	1400 3150 2050 3150
+	1400 3400 2050 3400
 Wire Wire Line
-	1400 3250 2050 3250
-Text Label 2050 3150 2    50   ~ 0
+	1400 3500 2050 3500
+Text Label 2050 3400 2    50   ~ 0
 CD_TRC_A
-Text Label 2050 3250 2    50   ~ 0
+Text Label 2050 3500 2    50   ~ 0
 CD_TRC_B
-Text HLabel 1400 3350 0    50   Output ~ 0
+Text HLabel 1400 3600 0    50   Output ~ 0
 CD_OPT_A
-Text HLabel 1400 3450 0    50   Output ~ 0
+Text HLabel 1400 3700 0    50   Output ~ 0
 CD_OPT_B
 Wire Wire Line
-	1400 3350 2050 3350
+	1400 3600 2050 3600
 Wire Wire Line
-	1400 3450 2050 3450
-Text Label 2050 3350 2    50   ~ 0
+	1400 3700 2050 3700
+Text Label 2050 3600 2    50   ~ 0
 CD_OPT_A
-Text Label 2050 3450 2    50   ~ 0
+Text Label 2050 3700 2    50   ~ 0
 CD_OPT_B
-Text HLabel 1400 3550 0    50   Output ~ 0
+Text HLabel 1400 3800 0    50   Output ~ 0
 CD_DISK
 Wire Wire Line
-	1400 3550 2050 3550
-Text Label 2050 3550 2    50   ~ 0
+	1400 3800 2050 3800
+Text Label 2050 3800 2    50   ~ 0
 CD_DISK
-Text HLabel 1400 4150 0    50   Output ~ 0
+Text HLabel 1400 4400 0    50   Output ~ 0
 PWM_FAN
 Wire Wire Line
-	1400 4150 2050 4150
-Text Label 2050 4150 2    50   ~ 0
+	1400 4400 2050 4400
+Text Label 2050 4400 2    50   ~ 0
 PWM_FAN
 Wire Wire Line
 	1400 2050 2050 2050
@@ -904,25 +887,25 @@ Text Label 8900 5800 2    50   ~ 0
 +3.3V_STB
 Wire Wire Line
 	8450 5800 8900 5800
-Text HLabel 1400 3750 0    50   Output ~ 0
+Text HLabel 1400 4000 0    50   Output ~ 0
 CD_MD
 Wire Wire Line
-	1400 3750 2050 3750
-Text Label 2050 3750 2    50   ~ 0
+	1400 4000 2050 4000
+Text Label 2050 4000 2    50   ~ 0
 CD_MD
 Text Label 9900 1750 2    50   ~ 0
 CD_MD
-Text HLabel 1400 3850 0    50   Input ~ 0
+Text HLabel 1400 4100 0    50   Input ~ 0
 CD_STOP
 Wire Wire Line
-	1400 3850 2050 3850
-Text Label 2050 3850 2    50   ~ 0
+	1400 4100 2050 4100
+Text Label 2050 4100 2    50   ~ 0
 CD_STOP
-Text HLabel 1400 3950 0    50   Output ~ 0
+Text HLabel 1400 4200 0    50   Output ~ 0
 CD_LD
 Wire Wire Line
-	1400 3950 2050 3950
-Text Label 2050 3950 2    50   ~ 0
+	1400 4200 2050 4200
+Text Label 2050 4200 2    50   ~ 0
 CD_LD
 Text Label 9900 1550 2    50   ~ 0
 CD_STOP
@@ -936,4 +919,66 @@ Wire Wire Line
 	7200 4250 9900 4250
 Wire Wire Line
 	7200 4350 9900 4350
+$Comp
+L Device:Battery_Cell BT1
+U 1 1 5FEF6B17
+P 3300 1250
+F 0 "BT1" H 3418 1346 50  0000 L CNN
+F 1 "Battery_Cell" H 3418 1255 50  0000 L CNN
+F 2 "Battery:BatteryHolder_Keystone_1058_1x2032" V 3300 1310 50  0001 C CNN
+F 3 "~" V 3300 1310 50  0001 C CNN
+	1    3300 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0142
+U 1 1 5FEF7071
+P 3300 1350
+F 0 "#PWR0142" H 3300 1100 50  0001 C CNN
+F 1 "GND" H 3305 1177 50  0000 C CNN
+F 2 "" H 3300 1350 50  0001 C CNN
+F 3 "" H 3300 1350 50  0001 C CNN
+	1    3300 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 1050 3300 950 
+Wire Wire Line
+	3300 950  2800 950 
+Text Label 2800 950  0    50   ~ 0
+V_BAT
+Wire Wire Line
+	5750 750  6400 750 
+Wire Wire Line
+	6400 750  6400 950 
+Wire Wire Line
+	6500 750  6500 950 
+Wire Wire Line
+	6600 750  6600 950 
+Wire Wire Line
+	6700 750  6700 950 
+Wire Wire Line
+	6800 750  6800 950 
+Wire Wire Line
+	6300 950  6300 850 
+Wire Wire Line
+	6300 850  5750 850 
+Text Label 5750 850  0    50   ~ 0
+V_BAT
+Text Label 9900 3650 2    50   ~ 0
+SCL
+Text Label 9900 3750 2    50   ~ 0
+SDA
+Text HLabel 1400 2450 0    50   BiDi ~ 0
+SDA
+Text HLabel 1400 2350 0    50   BiDi ~ 0
+SCL
+Wire Wire Line
+	1400 2350 2050 2350
+Wire Wire Line
+	1400 2450 2050 2450
+Text Label 2050 2350 2    50   ~ 0
+SCL
+Text Label 2050 2450 2    50   ~ 0
+SDA
 $EndSCHEMATC
